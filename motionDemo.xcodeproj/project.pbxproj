@@ -13,6 +13,8 @@
 		8EA0832424940985008C3C25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA0832224940985008C3C25 /* Main.storyboard */; };
 		8EA0832624940987008C3C25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA0832524940987008C3C25 /* Assets.xcassets */; };
 		8EA0832924940987008C3C25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA0832724940987008C3C25 /* LaunchScreen.storyboard */; };
+		8EA0833324940F28008C3C25 /* wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EA0833224940F28008C3C25 /* wallpaper.jpg */; };
+		8EA08335249412A5008C3C25 /* motionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA08334249412A5008C3C25 /* motionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8EA0832524940987008C3C25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EA0832824940987008C3C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EA0832A24940987008C3C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EA0833224940F28008C3C25 /* wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper.jpg; sourceTree = "<group>"; };
+		8EA08334249412A5008C3C25 /* motionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				8EA0831E24940985008C3C25 /* SceneDelegate.swift */,
 				8EA0832024940985008C3C25 /* ViewController.swift */,
 				8EA0832224940985008C3C25 /* Main.storyboard */,
+				8EA0833224940F28008C3C25 /* wallpaper.jpg */,
 				8EA0832524940987008C3C25 /* Assets.xcassets */,
 				8EA0832724940987008C3C25 /* LaunchScreen.storyboard */,
 				8EA0832A24940987008C3C25 /* Info.plist */,
+				8EA08334249412A5008C3C25 /* motionViewController.swift */,
 			);
 			path = motionDemo;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EA0833324940F28008C3C25 /* wallpaper.jpg in Resources */,
 				8EA0832924940987008C3C25 /* LaunchScreen.storyboard in Resources */,
 				8EA0832624940987008C3C25 /* Assets.xcassets in Resources */,
 				8EA0832424940985008C3C25 /* Main.storyboard in Resources */,
@@ -140,6 +147,7 @@
 			files = (
 				8EA0832124940985008C3C25 /* ViewController.swift in Sources */,
 				8EA0831D24940985008C3C25 /* AppDelegate.swift in Sources */,
+				8EA08335249412A5008C3C25 /* motionViewController.swift in Sources */,
 				8EA0831F24940985008C3C25 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
